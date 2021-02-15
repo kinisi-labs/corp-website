@@ -38,12 +38,21 @@
   ======================================================== -->
 
 <style>
-#hero {
+#hero  {
+  background-color:black;
   background-image: url("../../assets/kinisi-tim.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+     
 }
+
+@media (max-width: 600px) {
+  #hero {
+    background-size: contain;
+  }
+}
+
 
 #header {
   background-color: black ;
@@ -54,6 +63,10 @@
 }
 .credits a {
   color: black;
+}
+
+.img-fluid {
+  border-radius: 25px
 }
 </style>
 </head>
@@ -67,14 +80,15 @@
       <div class="logo mr-auto">
         <h1 class="text-light"><a href="index.html"></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <!-- <a href="index.html"><img src="../../assets/kinisi-tim.png" alt="" class="img-fluid"></a> -->
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="#mission">About</a></li>
+          <li><a href="#mission">Mission</a></li>
           <li><a href="#technology">Technology</a></li>
+          <li><a href="#faq">FAQ</a></li>
           <li><a href="#team">Team</a></li>
           <!--
           <li><a href="#portfolio">Portfolio</a></li>
@@ -665,21 +679,6 @@
               </div>
             </div>
           </div>
-<!--
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
-              <div class="member-img">
-                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
--->
         </div>
 
       </div>

@@ -394,7 +394,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   text-decoration: none;
 }
-/*
+
 @media (min-width: 1024px) {
   #hero p {
     width: 60%;
@@ -412,7 +412,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 28px;
   }
 }
-*/
+
 .hero-waves {
   display: block;
   width: 100%;
