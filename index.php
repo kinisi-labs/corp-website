@@ -1,5 +1,5 @@
 <?php
-header("Location: ./bs/Selecao/index.html")
+header("Location: ./web/index.html")
 ?>
 <!doctype html>
 <html lang="en">
