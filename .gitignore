@@ -37,4 +37,6 @@
 *.asm
 *.rel
 *.s
-dioci-example.out
+
+node_modules
+**/node_modules

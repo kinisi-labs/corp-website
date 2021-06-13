@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "bitwrench": "^1.2.10",
+    "bitwrench": "^1.2.12",
     "bootstrap": "^4.5.2"
   },
   "devDependencies": {},
