@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  background: #eee; /* was  #ef6603 *
+  background: #eee; /* was  #ef6603 */
   text-decoration: none;
 }
 
